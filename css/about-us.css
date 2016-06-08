@@ -1,0 +1,192 @@
+/*About US PAGE CSS */
+/*.about-left-block{
+    background:#fff;
+    position:relative;
+    border-radius: 10px;
+
+}*/
+.about-register-block{
+    padding:20px 10px;
+}
+.about-register-block h4 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "ProximaNovaThin";
+    color: #263b73;
+    padding: 25px 0;
+}
+.about-left-block:before {
+    content: url('../icons/screp-icon.jpg');
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    top: -25px;
+}
+.about-register-contents:after {
+    background-image: url('../icons/shadow-effect.jpg');
+    background-size: 100%;
+    width: 97%;
+    height: 108px;
+    content: "";
+    background-repeat: no-repeat;
+    left: 7px;
+    position: absolute;
+    bottom: -80px;
+}
+.about-register-block{
+    padding:20px 0;
+}
+.about-sidebar{
+    clear:both;
+    padding-top: 20px;
+}
+.about-register-fields input{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #263b73;
+    padding: 5px;
+    outline: 0;
+}
+.about-register-details{
+    padding:20px 15px;
+}
+.about-button-icon{
+    display: inline-block;
+    color: #263b73;
+    padding: 5px 0;
+
+}
+.about-button-text{
+    display: inline-block;
+    font-size: 18px;
+    color: #263b73;
+    padding: 0 0 0 10px;
+}
+.about-slider-content{
+    padding: 0 0 0 50px;
+}
+.about-slider-box{
+    border: 10px solid #fff;
+    border-radius: 10px;
+
+}
+.about-register-box{
+    padding-top:15px;
+}
+.about-left-block, .about-slider-box{
+    /*   height:470px;*/
+}
+.about-register-icon{
+    text-align: center;
+}
+.about-register-icon img{
+    display: inline-block;
+}
+.about-register-contents{
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+    /*   min-height:430px;*/
+}
+.about-sidebar-4:after {
+    background-image: url('../icons/big-shadow-effect.png');
+    background-size: 100%;
+    width: 97%;
+    height: 108px;
+    content: "";
+    background-repeat: no-repeat;
+    left: 7px;
+    position: absolute;
+    bottom: -75px;
+}
+.about-slider-box:after{
+    background-image: url('../icons/big-shadow-effect.png');
+    background-size: 100%;
+    width: 93%;
+    height: 108px;
+    content: "";
+    background-repeat: no-repeat;
+    left: 55px;
+    position: absolute;
+    bottom: -75px;
+}
+.about-sidebar-3{
+    margin-top: 50px;
+    padding:30px 0;
+}
+.about-slider-box .item img{
+    height:422px;
+}
+.about-content-section-2{
+    margin-top:30px;
+}
+.register-icon{
+    width:100%;
+}
+.carousel-inner .item img{
+    width:100%;
+}
+.clock-box canvas{
+    width: 100%;
+    text-align: center;
+
+}
+.clock-box{
+    background:transparent;
+}
+.clock-box:after{
+    background:transparent;
+}
+.news-content-box ul li div i{
+    padding-right: 10px;
+}
+.news-content-box ul li{
+    padding:5px 0;
+}
+.news-content-box ul{
+    color: #263b73;
+    display:inline-block;
+}
+.news-content-box ul li.read{
+    color:red;
+}
+.catalog-icons-box img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+}
+.catalog-icons-box span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.catalog-info-row{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #263b73;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.catalog-info-row img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+.catalog-info-titles{
+    display: inline-block;
+    vertical-align: middle;
+}
+.catalog-info-inside{
+    padding: 15px 5px;
+}
+.catalog-infos-services{
+    font-size:13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/*About US PAGE CSS END*/

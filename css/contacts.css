@@ -1,0 +1,69 @@
+/*CONTACT PAGE CSS*/
+
+.contacts-block h4{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "ProximaNovaThin";
+    color: #263b73;
+    padding: 25px 0;
+}
+.contacts-block .contacts-content-sections:last-child{
+    margin-bottom:25px;
+}
+.contacts-header{
+    padding: 20px 0;
+    background: #eee;
+    border-radius: 4px;
+}
+.contacts-header div:nth-child(2){
+    text-align:center;
+}
+.contacts-header div:nth-child(3){
+    text-align:right;
+}
+.contacts-header-section h5 i{
+    margin-right:5px;
+}
+.contacts-content-sections-header{
+    background:#2e538b;
+    padding:10px 20px;
+    margin: 20px 0 0 0;
+    color:#fff;
+}
+.contacts-content-childs{
+    clear:both;
+}
+.contact-child-block h5{
+    font-size:12px;
+}
+.contact-right-box{
+    border: 1px solid #DEDEDE;
+    padding: 25px 0;
+}
+.contact-right-top-box{
+    border: 1px solid #DEDEDE;
+}
+.contacts-content-childs{
+    border: 1px solid #DEDEDE;
+    padding: 20px 0;
+}
+.contacts-content-childs ul li:not(:first-child){
+    margin:20px 0 0 0;
+}
+.contacts-img-box img{
+    width:150px;
+    height:150px;
+    margin:0 auto;
+}
+/*CONTACT PAGE CSS END*/
+
+
+
+
+
+
+
+
+
+

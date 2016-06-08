@@ -1,0 +1,235 @@
+/*About US PAGE CSS */
+
+.header-with-menu{
+    border:none;
+}
+.home-content-section{
+    margin:5px 0;
+}
+.no-line{
+    border:none !important;
+}
+.about-register-block{
+    padding:20px 10px;
+}
+.about-register-block h4 {
+    text-align: center;
+    font-size: 20px;
+    /* font-weight: 600; */
+    font-family: arial;
+    color: #263b73;
+    padding: 8px 0;
+}
+.about-left-block:before {
+    content: "";
+    position: absolute;
+    z-index: 66666;
+    left: 15px;
+    top: -15px;
+    background-image: url('../icons/screp-icon.jpg');
+    width: 51px;
+    height: 90px;
+    background-size: 41px 70px;
+    background-repeat: no-repeat;
+}
+.about-register-contents:after {
+    background-image: url('../icons/shadow-effect.jpg');
+    background-size: 100%;
+    width: 97%;
+    height: 108px;
+    content: "";
+    background-repeat: no-repeat;
+    left: 7px;
+    position: absolute;
+    bottom: -80px;
+}
+.about-register-block{
+    padding: 10px 0;
+}
+.about-sidebar{
+    clear:both;
+/*    padding-top: 20px;*/
+}
+.about-register-fields input{
+    width: 100%;
+    margin: 3px 0;
+    border-radius: 2px;
+    border: none;
+    border: 1px solid #4D5B80;
+    /* padding: 3px; */
+    outline: 0;
+}
+.about-register-details{
+    padding: 5px 0;
+}
+.about-button-icon{
+    display: inherit;
+    color: #263b73;
+    padding: 5px 0;
+
+}
+.about-button-text{
+    display: inline-block;
+    font-size: 14px;
+    color: #263b73;
+    padding: 0 0 0 10px;
+}
+.about-slider-content{
+    padding: 0 0 0 25px
+}
+.about-slider-box{
+    border: 10px solid #fff;
+    border-radius: 10px;
+
+}
+.about-register-box{
+    padding-top:10px;
+}
+.about-left-block, .about-slider-box{
+    border-radius: 4px;
+}
+.about-register-icon{
+    text-align: center;
+}
+.about-register-icon img{
+    display: inline-block;
+    width:50px;
+}
+.about-register-contents{
+    background: #fff;
+    position: relative;
+    border-radius: 4px;
+    /*   min-height:430px;*/
+}
+.about-sidebar-4:after {
+    background-image: url('../icons/big-shadow-effect.png');
+    background-size: 100%;
+    width: 97%;
+    height: 108px;
+    content: "";
+    background-repeat: no-repeat;
+    left: 7px;
+    position: absolute;
+    bottom: -75px;
+}
+
+.about-sidebar-3{
+/*    margin-top: 50px;*/
+    padding:30px 0;
+    marign:20px 0;
+
+}
+.about-slider-box .item img{
+    height: 215px;
+}
+.about-content-section-2{
+    margin-top: 15px;
+}
+.register-icon{
+    width:100%;
+}
+.carousel-inner .item img{
+    width:100%;
+}
+.clock-box canvas{
+    width: 100%;
+    text-align: center;
+
+}
+.clock-box{
+    margin: 20px 0;
+    background:#fff;
+}
+.clock-box:after{
+    background:transparent;
+}
+.news-content-box ul li div i{
+    padding-right: 10px;
+}
+.news-content-box ul li{
+    padding:5px 0;
+}
+.news-content-box ul{
+    color: #263b73;
+    display:inline-block;
+ /*   padding:0 10px;*/
+}
+.news-content-box ul li.read{
+    color:red;
+}
+
+.catalog-icons-box img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.catalog-icons-box span{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.catalog-info-row{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #263b73;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+.catalog-info-row img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+}
+.catalog-info-titles{
+    display: inline-block;
+    vertical-align: middle;
+}
+.catalog-info-inside{
+    padding: 5px 5px;
+    display:block;
+}
+.catalog-infos-services{
+    font-size:13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content-services-blocks{
+    padding: 5px 0;
+}
+
+
+/*About US PAGE CSS END*/
+@media screen and (max-width:600px){
+    .home-header-info{
+        float:none
+    }
+    .catalog-content-service-button{
+        padding:30px 0;
+    }
+}
+
+@media screen and (max-width:489px){
+    .home-header-info{
+        float:none;
+    }
+}
+@media screen and (max-width:375px){
+    .catalog-info-block li{
+        display:flex;
+    }
+    .catalog-icons-box img{
+        width: 30px;
+    }
+    .catalog-info-row{
+        width: 26px;
+        height: 26px;
+        min-width: 26px;
+        min-height: 26px;
+    }
+    .catalog-infos-services{
+        padding: 5px;
+    }
+}
+

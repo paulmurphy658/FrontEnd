@@ -1,0 +1,460 @@
+<html><head>
+    <meta charset="UTF-8">
+    <title>Transinfo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Style Css-->
+<!--    <link rel="stylesheet" href="web.css">-->
+    <link rel="stylesheet" href="css/extra-homepage.css">
+    <link rel="stylesheet" href="css/about-us-extra.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/about.js"></script>
+</head>
+<body>
+<!----HEADER--->
+<header>
+    <div class="header-container">
+        <section class="container no-padd home-header-section no-line">
+            <div class="col-md-4 col-sm-4 col-xs-12 home-section-left">
+                <div class="home-header-left-contact">
+                    <span class="home-header-info"><span class="home-info-box"><img src="icons/phone-icon.png"></span>+435 7777-0</span>
+                    <span class="home-header-info"><span class="home-info-box"><img src="icons/message-icon.png"></span>austria@lkw-walter.com</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 logo-section">
+                <img class="img-responsive" src="images/trnasinfo.png" style="display:inline-block;">
+            </div>
+            <div class="col-md-4  col-sm-4 no-padd">
+                <div class=" home-header-center">
+                    <p class="home-header-info">
+                        <span class="home-info-box t-skype"><img src="icons/skype-icon.png"></span>
+                        <span class="home-info-box t-icq"><img src="icons/icq-icon.png"></span>
+                        <span class="home-info-box t-viber"><img src="icons/whatsup-icon.png"></span>
+                        <span class="home-info-box t-whatsapp"><img src="icons/viber-icon.png"></span>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</header>
+<!----HEADER END---->
+
+<!------Content---->
+
+<div class="container-fluid no-padd home-content-section no-padd clearfix">
+    <div class="col-md-12 no-padd">
+        <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a class="navbar-brand" href="#"></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                    <ul class="nav navbar-nav navbar-left trans-menu-bar">
+                        <li><a href="" class="active">Главная</a>
+                        </li>
+                        <li><a href="#"> О нас  </a>
+                        </li>
+                        <li><a href="#">Каталог компании </a>
+                        </li>
+                        <li><a href="#">Груз авторынок </a>
+                        </li>
+                        <li><a href="#"> Полезное  </a>
+                        </li>
+                        <li><a href="#">Услуги и цены </a>
+                        </li>
+                        <li><a href="#">  Контакты </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------Content-------------->
+    <div class="container about-sidebar">
+        <!--------Content-section-1--->
+        <div class="col-md-12 about-content-section">
+            <div class="col-md-3 no-padd about-left-block">
+                <div class="col-md-12 about-register-contents">
+                    <div class="about-register-block clearfix">
+                        <h4>Регистрация</h4>
+                        <img src="icons/register-icon.jpg" class="img-responsive register-icon" align="middle">
+                        <div class="col-md-12 about-register-box no-padd ">
+                            <div class="col-md-4 no-padd about-register-icon">
+                                <img src="icons/lock-icon.jpg" class="img-responsive">
+                            </div>
+                            <div class="col-md-8 about-register-fields no-padd">
+                                <input type="text" name="">
+                                <input type="text" name="">
+                            </div>
+                            <div class="col-md-12 about-register-details">
+                                <a href="#">
+                                    <div class="catalog-services-button">
+                                      <span class="arrow icon"> <img src="icons/arrow.png"></span>
+                                        <span class="services-types" align="middle">Войти в систему</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-12 no-padd about-register-links">
+                                <span class="glyphicon glyphicon-play about-button-icon"><span class="about-button-text">Регистрация</span></span>
+                                <span class="glyphicon glyphicon-play about-button-icon"><span class="about-button-text">Забыли пароль?</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 no-padd about-left-block-2" style="
+    padding: 20px 0;
+">
+                    <div class="col-md-12 about-register-contents about-sidebar-2">
+                        <div class="about-register-block clearfix">
+                            <h4>Тип курса</h4>
+                            <img src="icons/currency.png" class="img-responsive register-icon" align="middle">
+                            <div class="col-md-12 currence">
+                                <img src="images/rate1.png" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                    <!---CLOCK-------->
+                    <div class="col-md-12 clock-box about-register-contents about-sidebar-3">
+                        <canvas id="canvas"></canvas>
+                    </div>
+                    <!-------CLOCK END------>
+                </div></div>
+            <div class="col-md-9 about-slider-content">
+                <div class="about-slider-box">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                            <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <span class="images-titles">
+                                    <h4>Более 214 компании будут конкурировать за ваш груз</h4>
+                                </span>
+                                <img src="images/trucks1.png" alt="Chania" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                  <span class="images-titles">
+                                    <h4>Более 214 компании будут конкурировать за ваш груз</h4>
+                                </span>
+                                <img src="images/trucks2.png" alt="Chania" class="img-responsive">
+                            </div>
+
+                            <div class="item">
+                                  <span class="images-titles">
+                                    <h4>Более 214 компании будут конкурировать за ваш груз</h4>
+                                </span>
+                                <img src="images/trucks1.png" alt="Flower" class="img-responsive">
+                            </div>
+
+                            <div class="item active">
+                                  <span class="images-titles">
+                                    <h4>Более 214 компании будут конкурировать за ваш груз</h4>
+                                </span>
+                                <img src="images/trucks2.png" alt="Flower" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 about-slider-content" style="
+    padding: 20px 0;
+">
+                    <div class="col-md-12 about-register-contents about-sidebar-4">
+                        <div class="about-register-block clearfix">
+                            <h4>Новости</h4>
+                            <img src="icons/news.png" class="img-responsive register-icon" align="middle">
+                        </div>
+                        <div class="col-md-12 no-padd news-content-box">
+                            <ul>
+                                <li class="col-md-12 no-padd read">
+                                    <div class="col-md-2  col-xs-12 no-padd">
+                                        <i class="fa fa-calendar"></i>
+                                        17.11.2015
+                                    </div>
+                                    <div class="col-md-10 news-box-content">
+                                        С 16 ноября фурам запреили ездить по Новосибирску
+                                    </div>
+                                </li>
+                                <li class="col-md-12 no-padd">
+                                    <div class="col-md-2 col-xs-12 no-padd">
+                                        <i class="fa fa-calendar"></i>
+                                        17.11.2015
+                                    </div>
+                                    <div class="col-md-10 news-box-content">
+                                        В Литве хотят ввести плату за дороги для российских автоперевозчиков
+                                    </div>
+                                </li>
+                                <li class="col-md-12 no-padd">
+                                    <div class="col-md-2 col-xs-12 no-padd">
+                                        <i class="fa fa-calendar"></i>
+                                        17.11.2015
+                                    </div>
+                                    <div class="col-md-10 news-box-content">
+                                        Въезд большегрузов в Новосибирск в часы пик снова запретят
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <div class="about-register-block clearfix">
+                                <h4>Каталог компаний</h4>
+                                <img src="icons/catalog.png" class="img-responsive register-icon" align="middle">
+                            </div>
+                            <div class="col md-12 clearfix content-services-blocks">
+                                <div class="col-md-4 col-sm-4">
+                                    <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-1.png" class="img-responsive" align="middle">
+                                        <span class="catalog-info-titles">
+                                            ТАМОЖНЫЕ УСЛУГИ
+                                         </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хоров А.В </span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                      <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-2.png" class="img-responsive" align="middle">
+                                        <span>
+                                             СТРАХОВШИКИ
+                                        </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хоров А.В </span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                      <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-3.png" class="img-responsive" align="middle">
+                                        <span>
+                                            БАНКИ
+                                        </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                   <img src="icons/cat-icon-7.png"  class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png"  class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хор  А.В </span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-4.png" class="img-responsive" align="middle">
+                                        <span> ТАМОЖНЫЕ УСЛУГИ </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хоров А.В</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                      <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-5.png" class="img-responsive" align="middle">
+                                        <span>
+                                             СТРАХОВШИКИ
+                                        </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хоров А.В </span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                      <span class="catalog-icons-box">
+                                        <img src="icons/cat-icon-6.png" class="img-responsive" align="middle">
+                                        <span>
+                                            БАНКИ
+                                        </span>
+                                    </span>
+                                    <div class="col-md-12 catalog-info-inside">
+                                        <ul class="clearfix catalog-info-block">
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧУТП "Ариохгрупп"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ЧТУП "БЮРО ПЕРЕВОЗОК"</span>
+                                            </li>
+                                            <li>
+                                                <span class="catalog-info-row">
+                                                    <img src="icons/cat-icon-7.png" class="img-responsive" align="middle">
+                                                </span>
+                                                <span class="catalog-infos-services">ИП "Хоров А.В </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!------Catalog Services------->
+
+                            <div class="col-md-12 clearfix text-center">
+                                <div class="catalog-content-service-button catalog-buttons">
+                                    <a href="">
+                                        <div class="catalog-services-button">
+                                         <span class="arrow icon"> <img src="icons/arrow.png"></span>
+                                            <span class="services-types" align="middle">РЕГИСТРАЦИЯ </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!----Content-section-1 END----->
+
+
+
+    </div>
+</div>
+<!-----Footer--->
+<footer>
+    <div class="container home-footer-box no-padd">
+        <div class="col-md-7 no-padd home-footer-info clearfix">
+            <h3 class="footer-info-title">Контактная информация</h3>
+            <p><i class="fa fa-phone info-first"></i>Тел.: +43 5 7777-0</p>
+            <p><i class="fa fa-print"></i>Факс: +43 5 7777-33 </p>
+            <p><i class="fa fa-envelope"></i>E-Mail: austria@lkw-walter.com</p>
+            <p><i class="fa fa-map-marker"></i>Альтернативные адреса (напр. для внесения в навигационное оборудование)</p>
+        </div>
+        <div class="col-md-5 footer-info-image">
+            <img src="images/newmap.png" class="img-responsive">
+        </div>
+    </div>
+    <div class="container home-footer-bottom no-padd">
+        <div class="col-md-8 no-padd home-footer-info clearfix">
+            <!--   <h4>I Like It. Все права защищены 2015©  </h4>-->
+        </div>
+        <div class="col-md-4 no-padd home-footer-icons clearfix">
+            <div class="home-footer-icons-section">
+                <span class="t-facebook"><i class="fa fa-facebook"></i></span>
+                <span class="t-linkdin"><i class="fa fa-linkedin"></i></span>
+                <span class="t-tweeter"><i class="fa fa-twitter"></i></span>
+                <span class="t-gplus"><i class="fa fa-google-plus"></i></span>
+                <span class="t-youtube"><i class="fa fa-youtube"></i></span>
+                <span class="t-vk"><i class="fa fa-vk"></i></span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-------Footer END----->
+
+</body>
+</html>

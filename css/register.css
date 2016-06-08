@@ -1,0 +1,98 @@
+/*REGISTER PAGE CSS*/
+.register-form-box{
+    background: #fff;
+    padding: 0 30px 30px 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #002b55;
+}
+.register-services-types{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "ProximaNovaThin";
+    vertical-align: middle;
+}
+.register-form-box h4{
+    padding: 10px 15px;
+    border-bottom: 1px solid #D6CFCF;
+    color: #6e6d6d;
+    font-size: 14px;
+}
+.register-blocks{
+    margin: 20px 0 0 0;
+    border: 1px solid #D6CFCF;
+}
+.register-content-sections{
+    padding: 10px 0;
+}
+.register-client-title{
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-size: 20px;
+    font-weight: 300;
+    /* font-family: "ProximaNovaThin"; */
+    font-family: arial, sans-serif;
+    color: #2e538b;
+}
+.register-left-block:before{
+    content: url('../icons/screp-icon2.jpg');
+    position: absolute;
+    z-index: 1;
+    left: 25px;
+    top: -17px;
+}
+.register-button{
+    text-align:right;
+    padding: 10px 15px 20px 15px;
+}
+.register-services-button {
+    display: inline-block;
+    background: #2e538b;
+    color: #fff;
+    padding: 8px 44px;
+    outline: 0;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.input-group-addon{
+    background: transparent;
+    color: #a8a7a7;
+    border-radius:0 !important
+}
+.input-group input{
+    border-radius:0 !important;
+}
+#selectbasic{
+    color:#a8a7a7;
+}
+/*Select design style*/
+
+div.selectBox{position: relative; display: inline-block; cursor: default; text-align: left; line-height: 30px; clear: both; color: rgb(114, 97, 97);}
+span.selected{ text-indent: 10px;    border: 1px solid #ccc;; border-right: none; border-top-left-radius: 0; border-bottom-left-radius: 0; background: #fff; overflow: hidden;}
+span.selectArrow,span.selected{position: relative; float: left; z-index: 1; }
+ul.selectOptions{position: absolute; top: 32px; left: 0; width: 100%; border: 1px solid #ccc; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; overflow: hidden; background:#fff;z-index:22; padding-top: 2px; display: none;margin: 0;list-style: none inside none;padding-left: 0;}
+li.selectOption{display: block; line-height: 20px; padding: 5px 0 5px 10px; font-size: 12px; font-weight: bold; font-family: arial, sans-serif;list-style: none;margin: 0}
+span.selectArrow{
+    width: 35px;
+    height: 34px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.select-designed{
+    width: calc(100% - 35px);
+    display: block;
+    height: 34px;
+    padding: 6px 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #a8a7a7;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/*REGISTER PAGE CSS END*/

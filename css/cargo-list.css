@@ -1,0 +1,138 @@
+/*CARGO-LIST PAGE CSS*/
+.cargo-content{
+    padding: 20px 15px;
+}
+.cargo-left-list-header{
+    background-color:#3d88ba !important;
+    padding: 8px 15px !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.cargo-content-inside{
+    border: 1px solid #DEDEDE;
+}
+.cargo-list-li{
+    padding: 10px;
+}
+.cargo-list-li h5{
+    font-size:12px;
+}
+.panel-group .panel{
+    border-radius:0 !important;
+}
+.arrow-down{
+    float:right;
+    color:#fff;
+}
+.cargo-list-body{
+    padding:0;
+}
+.cargo-list-body ul li:nth-child(odd){
+    background:#eee;
+}
+.cargo-left-content , .cargo-right-content{
+    margin:20px 0;
+}
+.panel-title a{
+    color:#fff;
+    font-size: 14px;
+}
+.select-cargo-header{
+    padding: 5px 10px;
+}
+.cargo-bottom-header-title , .cargo-group{
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2;
+    margin: 0 10px;
+}
+.cargo-header-section{
+    padding:20px 0;
+}
+.cargo-data-table {
+    padding:10px 0;
+}
+
+
+ /*Profile Header BAR*/
+.header_inbox_icon{
+    display:inline-block !important;
+
+}
+.header_inbox_icon i{
+    font-size: 20px;
+}
+.header_inbox_icon span.badge{
+    font-family: "Open Sans",sans-serif;
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    font-weight: 300;
+    padding: 3px 6px;
+    background-color: #f25959;
+    color: #fff;
+}
+.header_inbox_icon:hover .dropdown-menu{
+    display:block;
+}
+.header-icon-button{
+    backgound:#3d88ba;
+    color:#fff;
+}
+
+#header_inbox_bar a:last-child{
+    padding: 0 5px;
+}
+#header_inbox_bar a:last-child span {
+    background: #3d88ba;
+    padding: 5px 8px;
+    color: #fff;
+}
+.cargo-items-count{
+    font-size:12px;
+    float:right;
+    color:#3d88ba;
+}
+
+
+/*Profile Header BAR*/
+.currency-block{
+    margin:20px 0;
+}
+.currency-block .about-register-block{
+    padding:0;
+}
+.about-register-block h4{
+    text-align: center;
+    padding: 15px 0;
+}
+.about-register-block img{
+    margin:0 auto
+}
+.cargo-rateing{
+    padding:30px 0;
+}
+.cargo-rating-block{
+    margin: 0 0 20px 0;
+}
+.panel-title a img{
+    height: 15px;
+}
+
+/*CARGO-LIST PAGE CSS END*/
+
+/*Responsive css*/
+
+@media screen and (max-width: 375px){
+    .panel-title a{
+        font-size: 12px !important;
+    }
+}
+
+/*Responsive css END*/
+
+
+
+
+
